@@ -1,0 +1,14 @@
+ul {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer{
+  height: 100px;
+  background-color: blue;
+}
+.address, .contactus{
+  float:right;
+  width:50%;
+  text-align: center;
+}
