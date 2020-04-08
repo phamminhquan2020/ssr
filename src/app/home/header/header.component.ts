@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
   }
 
   fixedHeader() {
-    $(document).ready(function () {
+    $(document).ready(function() {
 
       window.onscroll = function () { myFunction() };
 

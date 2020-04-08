@@ -6,7 +6,16 @@ body {
 	background-color: #8cfffb; 
 	color: white;
 }
-.header, .footer{
-	margin:5px 10px;
-	scroll-padding: 20px;
+
+.appHeader { grid-area: header; }
+.appMenu { grid-area: menu; }
+.appMain { grid-area: main; }
+.appRight { grid-area: right; }
+.appFooter { grid-area: footer; }
+.mainGrid{
+	display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
 }
